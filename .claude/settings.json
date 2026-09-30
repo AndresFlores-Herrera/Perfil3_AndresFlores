@@ -1,4 +1,10 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import PIL; print\\(PIL.__version__\\)\")",
+      "Bash(grep -i -E \"^\\(sharp|jimp|pngjs\\)$\")"
+    ]
+  },
   "enabledPlugins": {
     "expo@claude-plugins-official": true
   }
